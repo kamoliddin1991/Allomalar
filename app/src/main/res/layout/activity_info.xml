@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoActivity2">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/farobiy"/>
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="16dp"
+            android:text="Farobiy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textDescription"
+            android:justificationMode="inter_word"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:text="@string/farobiy"
+            android:layout_height="wrap_content"
+            tools:ignore="UnsedAttribute" />
+    </ScrollView>
+</LinearLayout>

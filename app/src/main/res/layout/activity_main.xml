@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       app:layout_constraintStart_toStartOf="parent"
+       tools:layout_editor_absoluteY="-89dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="200dp"
+               android:scaleType="centerCrop"
+               android:src="@drawable/al_xorazmiy"
+               android:visibility="visible"
+               tools:visibility="visible"
+               android:contentDescription="@string/todo" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="bottom"
+               android:padding="16dp"
+               android:shadowColor="#000000"
+               android:shadowDx="2"
+               android:shadowDy="2"
+               android:shadowRadius="2"
+               android:text="@string/al_xorazmiy"
+               android:textStyle="bold"
+               android:textColor="#FF5722" />
+
+           <FrameLayout
+               android:id="@+id/itemXorazmiy"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="?android:selectableItemBackground"
+               android:clickable="true"
+               tools:ignore="SpeakableTextPresentCheck"
+               android:focusable="true">
+
+           </FrameLayout>
+
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="200dp">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:scaleType="fitXY"
+                   android:src="@drawable/alishe_navoiy"
+                   android:contentDescription="@string/Todo" />
+           </FrameLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="bottom"
+               android:padding="16dp"
+               android:shadowColor="#000000"
+               android:shadowDx="2"
+               android:shadowDy="2"
+               android:shadowRadius="2"
+               android:text="@string/alisher_navoiy"
+               android:textStyle="bold"
+               android:textColor="#FF5722" />
+
+           <FrameLayout
+               android:id="@+id/itemnavoiy"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="?android:selectableItemBackground"
+               android:clickable="true"
+               tools:ignore="SpeakableTextPresentCheck"
+               android:focusable="true">
+
+           </FrameLayout>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="400dp"
+               android:scaleType="centerCrop"
+               android:src="@drawable/aburayhon_beruniy"
+               android:contentDescription="@string/todo3" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_gravity="bottom"
+               android:padding="16dp"
+               android:shadowColor="#000000"
+               android:shadowDx="2"
+               android:shadowDy="2"
+               android:shadowRadius="2"
+               android:text="@string/ibn_sino"
+               android:textStyle="bold"
+               android:textColor="#FF5722" />
+
+           <FrameLayout
+               android:id="@+id/itemibinsino"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               tools:ignore="SpeakableTextPresentCheck">
+
+           </FrameLayout>
+
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="bottom"
+                   android:padding="16dp"
+                   android:shadowColor="#000000"
+                   android:shadowDx="2"
+                   android:shadowDy="2"
+                   android:shadowRadius="2"
+                   android:text="@string/al_farobiy"
+                   android:textColor="#00BCD4" />
+           </FrameLayout>
+
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="200dp">
+
+               <ImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:scaleType="fitCenter"
+                   android:src="@drawable/farobiy"
+                   android:contentDescription="@string/todo4" />
+           </FrameLayout>
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="400dp"
+               android:scaleType="centerCrop"
+               android:src="@drawable/m_bobur"
+               android:contentDescription="@string/todo5" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_gravity="bottom"
+               android:padding="16dp"
+               android:shadowColor="#000000"
+               android:shadowDx="2"
+               android:shadowDy="2"
+               android:shadowRadius="2"
+               android:text="@string/zahiriddin_muhammad_bobur"
+               android:textStyle="bold"
+               android:textColor="#FF5722" />
+
+           <FrameLayout
+               android:id="@+id/itembobur"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:background="?android:selectableItemBackground"
+               android:clickable="true"
+               tools:ignore="SpeakableTextPresentCheck"
+               android:focusable="true">
+
+           </FrameLayout>
+       </LinearLayout>
+   </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
